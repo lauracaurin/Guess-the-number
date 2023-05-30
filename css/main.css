@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.body {
+height: 100vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;  
+  gap: 10px;  
+}
+
+.main {
+  width: 200px;
+  background-color: white;
+  margin:0 auto;
+  border: solid 2px rgb(56, 100, 52);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px; 
+  @media (min-width: 769px) {
+    width: 400px;
+    font-size: 18px; 
+    }
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0 20px 0;
+  font-size: 20px;
+  @media (min-width: 769px) {
+    font-size: 25px;
+  }
+}
+
+.p {
+  margin-top: 10px;
+  text-align: start;
+  border: solid 1px black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  background: #49994b;
+  font-weight: 900;
+  border: 3px solid rgb(56, 100, 52);
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  color: rgb(0, 0, 0);
+  padding: 5px 0;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  @media (min-width: 769px) {
+    width: 300px;   
+  }
+}
+
+.button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.user__number {
+  font-family: monospace;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 10px;
+  border-radius: 5px;
+  color: #212328;
+}
+
+.user__number_input {
+  margin: 0 auto;
+  width: 100px;
+  @media (min-width: 769px) {
+    width: 300px;     
+  }
+}
